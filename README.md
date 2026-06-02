@@ -1,12 +1,12 @@
-# Mobile HW1 – Rolling Ball
+# Mobile HW1: Rolling Ball
 
-A tilt-controlled rolling ball game built in Unity for mobile.
+A tilt controlled rolling ball game built in Unity for mobile.
 
 ---
 
-## Extra Feature: Pinch-to-Zoom
+## Extra Feature: Pinch to Zoom
 
-The camera supports **two-finger pinch** to zoom in and out during gameplay.
+The camera supports **two finger pinch** to zoom in and out during gameplay.
 
 **How to test:**
 1. Build and run on a physical Android/iOS device (or use Unity Remote).
