@@ -4,26 +4,37 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-   [Header("UI References")]
+    public static GameManager Instance;
+
+    [Header("UI References")]
     public TextMeshProUGUI timerText;
     private float timeElapsed = 0f;
+    private bool isPlaying = false;
+
+    void Awake()
+    {
+        Instance = this;
+    }
+
+    public void StartGame()
+    {
+        isPlaying = true;
+        timeElapsed = 0f;
+    }
 
     void Update()
     {
-        // Increment the timer via engine delta time
+        if (!isPlaying) return;
+
         timeElapsed += Time.deltaTime;
-        
-        // Update the UI if the reference is assigned
-        if(timerText != null)
-        {
+
+        if (timerText != null)
             timerText.text = "Time: " + Mathf.Round(timeElapsed).ToString() + "s";
-        }
     }
 
-    // This method will be triggered by your Restart Button
     public void RestartLevel()
     {
-        // Force the engine to reload the current active scene
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
