@@ -5,12 +5,12 @@ public class BallController : MonoBehaviour
 {
     [Header("Physics Settings")]
     public float speed = 15f;
-    private Rigidbody rb;
+    private Rigidbody _rb;
 
     void Start()
     {
         // Cache the Rigidbody reference to save memory overhead
-        rb = GetComponent<Rigidbody>();
+        _rb = GetComponent<Rigidbody>();
     }
 
     void FixedUpdate()
@@ -22,6 +22,6 @@ public class BallController : MonoBehaviour
         Vector3 movement = new Vector3(tilt.x, 0.0f, tilt.y);
         
         // Apply continuous force to the physics engine
-        rb.AddForce(movement * speed);
+        _rb.AddForce(movement * speed);
     }
 }
