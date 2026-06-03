@@ -31,3 +31,9 @@ The camera supports **two finger pinch** to zoom in and out during gameplay.
 | `PinchZoom.cs` | Reads two touch points each frame and adjusts camera FOV |
 | `GameManager.cs` | Tracks elapsed time and handles scene reload on restart |
 | `StartMenuManager.cs` | Swaps UI panels and unpauses the game when Play is pressed |
+
+---
+
+## Git
+
+Link: https://github.com/NickTAM1/MobileClassT5HW1.git
