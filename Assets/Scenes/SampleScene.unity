@@ -1514,11 +1514,11 @@ PrefabInstance:
     - target: {fileID: 4923889771345256146, guid: 3cf970923c9ef2142b618dfb06103b4d, type: 3}
       propertyPath: gamePanel
       value: 
-      objectReference: {fileID: 1264216893}
+      objectReference: {fileID: 1961389520}
     - target: {fileID: 4923889771345256146, guid: 3cf970923c9ef2142b618dfb06103b4d, type: 3}
       propertyPath: startPanel
       value: 
-      objectReference: {fileID: 1961389520}
+      objectReference: {fileID: 1264216893}
     - target: {fileID: 5339308502425537254, guid: 3cf970923c9ef2142b618dfb06103b4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 245.44482
@@ -1572,6 +1572,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1068571953}
     m_Modifications:
+    - target: {fileID: 767139923974463731, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5360427
+      objectReference: {fileID: 0}
+    - target: {fileID: 767139923974463731, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.315839
+      objectReference: {fileID: 0}
     - target: {fileID: 2436028230969241891, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
       propertyPath: m_Name
       value: StartPanel
@@ -1655,6 +1663,60 @@ PrefabInstance:
     - target: {fileID: 3354997596488157973, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010911025834660746, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010911025834660746, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010911025834660746, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -298
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010911025834660746, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 539
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_text
+      value: 'Play Ball
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_fontSize
+      value: 115.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_margin.w
+      value: -157.42053
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_margin.x
+      value: 21.019402
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_margin.z
+      value: -585.1596
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 115.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479396953818864311, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6729284344063174233, guid: 2550f29037e0867468c2f0b2361101cb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
